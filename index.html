@@ -8,6 +8,7 @@
     <title>Projekt 2 Marta Małachowicz</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./menu.css">
     <link rel="stylesheet" href="./mobile.css">
     <link rel="stylesheet" href="./tablet.css">
     <link rel="stylesheet" href="./desktop.css">
@@ -20,11 +21,21 @@
     <nav>
         <div class="container container-flex">
             <a href="#" class="nav-logo">moja firma</a>
-            <div class="nav-links">
+
+            <input class="menu-btn" type="checkbox" id="menu-btn" />
+            <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+            <ul class="dropdown-content">
+              <li><a href="#about-us">o nas</a></li><br />
+              <li><a href="#offer">oferta</a></li><br />
+              <li><a href="#offer">oferta</a></li><br />
+              <li><a href="#" class="not-allowed">kontakt</a></li>
+            </ul>
+
+            <!-- <div class="nav-links">
                 <a href="#about-us">o nas</a>
                 <a href="#offer">oferta</a>
                 <a href="#" class="not-allowed">kontakt</a>
-            </div>
+            </div> -->
         </div>
     </nav>
 

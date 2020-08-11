@@ -47,7 +47,7 @@ nav a {
     display: flex;
     align-items: center;
     height:100%; 
-    background-color:rgba(0, 0, 0, 0.15);
+    background-color:rgba(121, 42, 42, 0.15);
 }
 
 .landing-page-shadow .container-flex-column {
@@ -60,7 +60,7 @@ nav a {
 }
 
 .landing-page-shadow .container {
-    height: 30%;
+    height: 35%;
 }
 
 .button {
