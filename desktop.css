@@ -1,0 +1,13 @@
+@media (min-width: 1024px) {
+    .container {
+        width: 960px;
+    }
+    .button:hover {
+        background-color: white;
+        color: black;
+    }
+    .grid-item-offer:hover {
+        transform: scale(1.05);
+        transition-duration: 0.5s;
+    }
+}

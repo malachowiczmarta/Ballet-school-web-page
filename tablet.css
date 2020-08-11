@@ -1,0 +1,65 @@
+@media (min-width: 768px) {
+    
+    .container-flex-column {
+        align-items: flex-start;
+    }
+
+    .nav-links a { 
+    color: #F1F1F1;
+    }
+
+    .nav-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    }
+
+    .not-allowed {
+    cursor: not-allowed;
+    }
+
+    .landing-page-shadow .container {
+        height: 30%;
+    }
+
+    .text-box-landing-page {
+        width: 65%;
+        height: 50%;
+    }
+
+    .box-specialist-about {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin-top: 50px;
+        text-align: left;
+    }
+    
+    div.box-specialist-about:nth-of-type(even) {
+        flex-direction: row-reverse;
+        text-align: right;
+    }
+
+    .specialist-description-about {
+        width: 75%;
+    }
+
+    .grid-offer {
+        grid-template-columns: 33% 33% 33%;
+        grid-template-rows: 50% 50%;
+        grid-gap: 2%;
+        width: 80%;
+        height: 500px;
+        margin: 50px auto;
+    }
+    
+    .container-flex-footer {
+        flex-direction: row;
+    }
+    .footer-icons {
+        width: 8%;
+    }
+
+    
+}

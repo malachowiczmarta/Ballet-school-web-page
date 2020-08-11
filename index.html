@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Projekt 1 Marta Małachowicz</title>
+    <title>Projekt 2 Marta Małachowicz</title>
     <link rel="stylesheet" href="./reset.css">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./mobile.css">
+    <link rel="stylesheet" href="./tablet.css">
+    <link rel="stylesheet" href="./desktop.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 </head>
@@ -29,8 +32,10 @@
         <section class="landing-page">
             <div class="landing-page-shadow">
                 <div class="container container-flex-column">
-                    <h1>Nasza firma oferuje najwyższej jakości produkty</h1>
-                    <h2 class="text-white">Nie wierz nam na słowo - sprawdź!</h2>
+                    <div class="text-box-landing-page container-flex-column">
+                        <h1>Nasza firma oferuje najwyższej jakości produkty</h1>
+                        <h2 class="text-white">Nie wierz nam na słowo - sprawdź!</h2>
+                    </div>
                     <a  class="button" href="#offer">Oferta</a>
                 </div>
             </div>
@@ -41,7 +46,7 @@
                 <h1 class="text-blue">Nasi specjaliści</h1> 
                 <div class="box-specialist-about">
                     <div class="img-specialist-about img1-specialist-about"></div>
-                    <div class="specialist-desc-about text-black">
+                    <div class="specialist-description-about text-black">
                         <h2>Imię i Nazwisko</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -54,7 +59,7 @@
                 </div>
                 <div class="box-specialist-about">
                     <div class="img-specialist-about img2-specialist-about"></div>
-                    <div class="specialist-desc-about text-black">
+                    <div class="specialist-description-about text-black">
                         <h2>Imię i Nazwisko</h2>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -75,27 +80,27 @@
 
                     <article class="grid-item-offer">
                         <div class="circle-offer"></div>
-                        <h3>Usługa 1 <span>(nowość)</span></h3>
+                        <h2>Usługa 1 <span>(nowość)</span></h2>
                     </article>
 
                     <article class="grid-item-offer">
-                        <h3>Usługa 2</h3>
+                        <h2>Usługa 2</h2>
                     </article>
 
                     <article class="grid-item-offer">
-                        <h3>Usługa 3</h3>
+                        <h2>Usługa 3</h2>
                     </article>
 
                     <article class="grid-item-offer">
-                        <h3>Usługa 4</h3>
+                        <h2>Usługa 4</h2>
                     </article>
 
                     <article class="grid-item-offer">
-                        <h3>Usługa 5</h3>
+                        <h2>Usługa 5</h2>
                     </article>
 
                     <article class="grid-item-offer">
-                        <h3>Usługa 6</h3>
+                        <h2>Usługa 6</h2>
                     </article>
                 </div>
             </div>
@@ -104,7 +109,7 @@
     </main>
     <footer>
         <div class="container container-flex-footer">
-            <h3 class="text-white">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</h3>
+            <span class="text-white">Nazwa firmy - wszelkie prawa zastrzeżone, 2019</span>
             <div class="footer-icons">
                 <a href="#"><i class="fab fa-instagram"></i></a>
                 <a href="#"><i class="fab fa-facebook-square"></i></a> 
