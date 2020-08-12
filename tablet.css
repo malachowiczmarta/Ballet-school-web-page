@@ -4,18 +4,22 @@
         align-items: flex-start;
     }
 
+    .hamburger-menu {
+        display: none;
+    }
+
     .nav-links a { 
     color: #F1F1F1;
     }
 
     .nav-links {
-    width: 30%;
-    display: flex;
-    justify-content: space-between;
+        width: 30%;
+        display: flex;
+        justify-content: space-between;
     }
 
     .not-allowed {
-    cursor: not-allowed;
+        cursor: not-allowed;
     }
 
     .landing-page-shadow .container {
@@ -50,8 +54,7 @@
         grid-template-rows: 50% 50%;
         grid-gap: 2%;
         width: 80%;
-        height: 500px;
-        margin: 50px auto;
+        margin: 0 auto;
     }
     
     .container-flex-footer {
