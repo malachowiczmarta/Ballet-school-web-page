@@ -39,39 +39,37 @@ nav a {
 }
 
 .landing-page {
+    display: flex;
+    align-items: center;
     background-image: url(https://images.pexels.com/photos/3949699/pexels-photo-3949699.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260);
     height: calc(100vh - 50px);
     background-size: cover;
     background-position: center;
 }
 
-.landing-page-shadow {
-    display: flex;
-    align-items: center;
+.landing-page::after {
+    content: "";
     height:100%; 
     background-color:rgba(0, 0, 0, 0.15);
 }
 
-.landing-page-shadow h1 {
+.landing-page h1 {
     text-align: left;
 }
 
-.landing-page-shadow .container-flex-column {
+.landing-page .container-flex-column {
     align-items: flex-start;
+    height: 40%;
 }
 
-.text-box-landing-page {
+.landing-page-box-text {
     width: 100%;
     height: 65%;
 }
 
-.landing-page-shadow .container {
-    height: 35%;
-}
-
-.button {
+.button-landing-page {
     font-size: 18px;
-    padding: 15px 25px;
+    padding: 15px 0;
     border: 3px solid white;
     background-color: transparent;
     text-align: center;
@@ -81,12 +79,12 @@ nav a {
     width: 164px;
 }
 
-.about-us {
+.about {
     background-color: #F1F1F1;
     padding: 5% 0;
 }
 
-.box-specialist-about {
+.about-box-specialist {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,7 +93,7 @@ nav a {
 }
 
 
-.img-specialist-about {
+.about-img-specialist {
     background-size: cover;
     background-position: center;
     height: 150px;
@@ -104,22 +102,22 @@ nav a {
     flex-shrink: 0;
 }
 
-.img1-specialist-about {
+.about-img1-specialist {
     background-image: url(https://images.pexels.com/photos/3902518/pexels-photo-3902518.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 }
 
-.img2-specialist-about {
+.about-img2-specialist {
     background-image: url(https://images.pexels.com/photos/2345293/pexels-photo-2345293.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
 }
 
-.specialist-description-about {
+.about-specialist-description {
     margin: 30px 0;
     font-weight: normal;
     font-size: 18px;
     width: 94%;
 }
 
-.specialist-description-about h2 {
+.about-specialist-description h2 {
     margin-bottom: 20px;
 }
 
@@ -128,17 +126,18 @@ nav a {
     padding: 5% 0;
 }
 
-.grid-offer {
+.offer-grid {
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: repeat(6, 1fr);
+    grid-template-rows: auto;
     grid-gap: 1%;
     width: 80%;
+    margin-bottom: 30%;
 }
 
-.grid-item-offer {
-    padding: 50% 0;
+.offer-grid-item {
     position: relative;
+    padding-bottom: 100%;
     background-color: #F1F1F1;
     display: flex;
     justify-content: center;
@@ -147,6 +146,7 @@ nav a {
 
 .offer-grid-item-content {
     position: absolute;
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,19 +154,24 @@ nav a {
     height: 100%;
 }
 
-.grid-item-offer h2 {
+.offer-grid-item h2 {
     font-size: 24px;
     font-weight: normal;
     color: black;
-    width: 50%;
+    width: 45%;
 }
 
-.grid-item-offer span {
+.offer-grid-item span {
     font-size: 16px;
     font-weight: normal;
 }
 
-.circle-offer {
+.offer-circle {
+    position: relative;
+}
+
+.offer-circle::before {
+    content: "";
     position: absolute;
     left: -11px;
     top: -11px; 
@@ -182,7 +187,7 @@ footer {
     padding: 10px 0;
 }
 
-.container-flex-footer {
+.footer-container-flex {
     height: 100%;
     display: flex;
     flex-direction: column;

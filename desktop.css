@@ -2,12 +2,17 @@
     .container {
         width: 960px;
     }
-    .button:hover {
+
+    .button-landing-page:hover {
         background-color: white;
         color: black;
     }
-    .grid-item-offer:hover {
-        transform: scale(1.05);
+
+    .offer-grid-item {
         transition-duration: 0.5s;
+    }
+
+    .offer-grid-item:hover:hover {
+        transform: scale(1.05);
     }
 }

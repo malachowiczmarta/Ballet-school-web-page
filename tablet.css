@@ -22,16 +22,16 @@
         cursor: not-allowed;
     }
 
-    .landing-page-shadow .container {
+    .landing-page .container {
         height: 30%;
     }
 
-    .text-box-landing-page {
+    .landing-page-box-text {
         width: 65%;
         height: 50%;
     }
 
-    .box-specialist-about {
+    .about-box-specialist {
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -40,16 +40,16 @@
         text-align: left;
     }
     
-    div.box-specialist-about:nth-of-type(even) {
+    .about-box-specialist:nth-of-type(even) {
         flex-direction: row-reverse;
         text-align: right;
     }
 
-    .specialist-description-about {
+    .about-specialist-description {
         width: 75%;
     }
 
-    .grid-offer {
+    .offer-grid {
         grid-template-columns: 33% 33% 33%;
         grid-template-rows: 50% 50%;
         grid-gap: 2%;
@@ -57,7 +57,7 @@
         margin: 0 auto;
     }
     
-    .container-flex-footer {
+    .footer-container-flex {
         flex-direction: row;
     }
     .footer-icons {
