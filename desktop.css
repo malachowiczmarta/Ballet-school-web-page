@@ -1,18 +1,22 @@
 @media (min-width: 1024px) {
-    .container {
-        width: 960px;
-    }
+  .container {
+    width: var(--width-desktop);
+  }
 
-    .button-landing-page:hover {
-        background-color: white;
-        color: black;
-    }
+  .not-allowed {
+    cursor: not-allowed;
+  }
 
-    .offer-grid-item {
-        transition-duration: 0.5s;
-    }
+  .button-landing-page:hover {
+    background-color: var(--color-text);
+    color: var(--color-text-black);
+  }
 
-    .offer-grid-item:hover:hover {
-        transform: scale(1.05);
-    }
+  .offer-grid-item {
+    transition-duration: 0.5s;
+  }
+
+  .offer-grid-item:hover:hover {
+    transform: scale(1.05);
+  }
 }

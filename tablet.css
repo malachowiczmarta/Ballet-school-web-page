@@ -1,68 +1,61 @@
 @media (min-width: 768px) {
-    
-    .container-flex-column {
-        align-items: flex-start;
-    }
+  .container-flex-column {
+    align-items: flex-start;
+  }
 
-    .hamburger-menu {
-        display: none;
-    }
+  .hamburger-menu {
+    display: none;
+  }
 
-    .nav-links a { 
-    color: #F1F1F1;
-    }
+  .nav-links a {
+    color: var(--color-background-section);
+  }
 
-    .nav-links {
-        width: 30%;
-        display: flex;
-        justify-content: space-between;
-    }
+  .nav-links {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+  }
 
-    .not-allowed {
-        cursor: not-allowed;
-    }
+  .landing-page .container {
+    height: 30%;
+  }
 
-    .landing-page .container {
-        height: 30%;
-    }
+  .landing-page-box-text {
+    width: 65%;
+    height: 50%;
+  }
 
-    .landing-page-box-text {
-        width: 65%;
-        height: 50%;
-    }
+  .about-box-specialist {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: var(--spacing-5);
+    text-align: left;
+  }
 
-    .about-box-specialist {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 50px;
-        text-align: left;
-    }
-    
-    .about-box-specialist:nth-of-type(even) {
-        flex-direction: row-reverse;
-        text-align: right;
-    }
+  .about-box-specialist:nth-of-type(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
 
-    .about-specialist-description {
-        width: 75%;
-    }
+  .about-specialist-description {
+    width: 75%;
+  }
 
-    .offer-grid {
-        grid-template-columns: 33% 33% 33%;
-        grid-template-rows: 50% 50%;
-        grid-gap: 2%;
-        width: 80%;
-        margin: 0 auto;
-    }
-    
-    .footer-container-flex {
-        flex-direction: row;
-    }
-    .footer-icons {
-        width: 8%;
-    }
+  .offer-grid {
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 50% 50%;
+    grid-gap: 2%;
+    width: 80%;
+    margin: var(--spacing-0) auto;
+  }
 
-    
+  .footer-container-flex {
+    flex-direction: row;
+  }
+  .footer-icons {
+    width: 8%;
+  }
 }
