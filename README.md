@@ -1,6 +1,6 @@
-# # Ballet school website
+## Ballet school website
 
-> I decided to create static website to learn basic html and css. This was my first project ever. I tried to focus on good practise.
+> I decided to create static website to learn basic html and css. This was my first project ever.
 
 ## Table of Contents
 
@@ -20,3 +20,7 @@ Project is created with:
 
 - HTML5
 - CSS3
+
+## Inspiration
+
+This project was created during my frontend bootcamp.
